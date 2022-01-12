@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* -----------index.html------------  background-color: rgb(241, 233, 233);-*/
+body
+{
+    margin-top: 18vh;
+    background-image: linear-gradient(to left, #542e85e0, #4646afef, #542e85ee);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-image: linear-gradient(180deg, rgb(226, 226, 226), #c4c4c4, rgb(173, 173, 173));
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.781);
+    line-height: 24px;
+    width: 330px;
+    margin: auto;
+}
+
+.pai{
+    padding: 15px 70px 70px 70px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.decoracao{
+    height: 50px;
+}
+.ancora{   
+    text-indent: center;
+    color: black;
+    text-decoration: none;
+}
+.ancora:hover{
+    text-shadow: 1px 1px 2px rgba(64, 80, 218, 0.507);
+    text-decoration: underline;
+}
+#porti{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 19px;
+    margin: 0px;
+}
+
+/* -----------projeto.html-------------*/
+.menu-proj{
+    padding-top: 10px;
+    padding-left: 7px;
+    align-items: left;
+    text-align: left;
+}
+
+#seta{   
+    height: 12px;
+    width: 20px ;
+}
+#voltar{
+    text-decoration: none;
+}
+#voltar:hover{
+    text-decoration:underline;
+}
+#proj{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 19px;
+    margin: 0px;
+}
+.ancora_proj{
+    text-decoration: none;
+    text-indent: center;
+    color: black;
+    margin-left: 23px;
+}
+.botao_download{
+    width: 10px;
+    margin-left: 4.3px;
+}
+.ancora_proj > .botao_download{
+    visibility: hidden;
+    transform: translateX(-20px);
+}
+.ancora_proj:hover > .botao_download{
+    visibility: visible;
+    transform: translateX(3px);
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.ancora_proj:hover{
+    text-decoration: underline;
+}
+
+/* -----------Contato.html-------------*/
+#cont{
+    padding-top: 14px;
+    text-align: center;
+    font-size: 19px;
+    margin: 0px;
+}
+.ancora_cont{
+    text-decoration: none;
+    text-indent: center;
+    color: black;
+}
+.ancora_cont:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px rgba(64, 80, 218, 0.507);
+}
+
+/* -----------Sobre.html-------------*/
+
+.sobre_config{
+    width: 600px;
+    min-width: 400px;
+    
+}
+.sobre_text{
+    text-align: center;
+    font-size: 17.5px;
+    text-size-adjust: 100%;
+
+}
+
+/* -----------Teste.html-------------*/
+.teste{
+    height: 500px;
+    margin-top: -70px;
+}
+
+.teste_p{
+    width: 40px;
+}
+.teste_p2{
+    margin-top: 100px;
+    width: 43px;
+}
+.teste_p:hover{
+    
+    transform: translateX(150px);
+    transition: 3s;
+    transition-delay: 0.1s;
+    
+}
+.teste_p2:hover{
+    transform: translatey(-150px);
+    transition: 5s;
+    transition-delay: 0.1s;
+}
