@@ -72,17 +72,68 @@ nav{
 
 #config_text{
     max-width: 600px;
-    min-width: 400px;
+    min-width: 250px;
     color: black;
     border-radius: 6px;
     text-align: center;
     padding: 35px 70px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 25px;
     background-color: rgb(218, 218, 218);
     box-shadow: 1px 1px 3px #000000;
 }
 #paragrafo{
-    margin-top: 20px;
+    margin-top: 15px;
+    text-align: justify;
    
+}
+
+
+
+/*-----Projetos.html-----*/
+
+
+.config_projetos{
+    max-width: 300px;
+    min-width: 250px;
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    background-color: rgb(32,32,32);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+li{
+    line-height: 25px;
+}
+.botao_download{
+    width: 10px;
+    margin-left: 4.3px;
+}
+.ancora_proj{
+    
+    text-decoration: none;
+    text-indent: center;
+    color: white;
+    margin-left: 23px;
+    line-height: 20px;
+}
+.ancora_proj > .botao_download{
+    visibility: hidden;
+    transform: translateX(-20px);
+}
+.ancora_proj:hover > .botao_download{
+    visibility: visible;
+    transform: translateX(3px);
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.ancora_proj:hover{
+    text-decoration: underline;
 }
