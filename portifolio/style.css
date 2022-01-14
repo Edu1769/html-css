@@ -72,7 +72,7 @@ nav{
 
 #config_text{
     max-width: 600px;
-    min-width: 200px;
+    min-width: 400px;
     color: black;
     border-radius: 6px;
     text-align: center;
@@ -80,9 +80,9 @@ nav{
     margin: auto;
     margin-top: 40px;
     background-color: rgb(218, 218, 218);
-    box-shadow: 1px 1px 5px #6f518fc2;
+    box-shadow: 1px 1px 3px #000000;
 }
 #paragrafo{
     margin-top: 20px;
-    
+   
 }
