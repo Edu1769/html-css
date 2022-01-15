@@ -46,7 +46,7 @@ nav{
     color: white;
     line-height: 44px;
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 90px;
     
 }
 #sub_principal{
@@ -78,7 +78,7 @@ nav{
     text-align: center;
     padding: 25px 50px 40px 50px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 90px;
     background-color: rgb(218, 218, 218);
     box-shadow: 1px 1px 3px #000000;
 }
@@ -99,16 +99,20 @@ nav{
     max-width: 300px;
     min-width: 250px;
     margin: auto;
-    margin-top: 35px;
+    margin-top: 90px;
     text-align: center;
     background-color: rgb(32,32,32);
     color: white;
     padding: 20px 30px;
     border-radius: 6px;
 }
+#projeto_download{
+    margin-top: 8px;
+    font-size: 19px;
+}
 ul{
     list-style: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 li{
     line-height: 25px;
