@@ -76,15 +76,17 @@ nav{
     color: black;
     border-radius: 6px;
     text-align: center;
-    padding: 35px 70px;
+    padding: 25px 50px 40px 50px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 35px;
     background-color: rgb(218, 218, 218);
     box-shadow: 1px 1px 3px #000000;
 }
 #paragrafo{
+    font-weight: 545;
+    line-height: 21.3px;
     margin-top: 15px;
-    text-align: justify;
+    text-align: center;
    
 }
 
