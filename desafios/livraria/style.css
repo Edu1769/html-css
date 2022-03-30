@@ -3,8 +3,9 @@
 main{
     margin: auto;
     margin-top: 12vh;
-    max-width: 1000px;
-    min-width: 700px;
+    width: fit-content;
+    /*max-width: 1000px;
+    min-width: 700px;*/
     display: flex;
     
 }
@@ -60,11 +61,13 @@ iframe{
     color: white;
 }
 
-#rodape{
-    margin-top: 21vh;
-    margin-right: 10px;
+#rodape{   
+    text-align: center;
+    float: right;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 20vh;
     height: 23px;
-    text-align: right;
 }
 
 p{
