@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form">
+        <label>Titulo</label><br>
+        <input type="text"><br><br>
+
+        <label>Subtitulo</label><br>
+        <input type="text"><br><br>
+        
+        <label>Classificação</label><br>
+        <select>
+            <option value="Ens.f">Ensino Fundamental</option>
+            <option value="Ens.m">Ensino Médio</option>
+            <option value="Ens.s">Ensino Superior</option>
+        </select><br><br>
+
+        <label for="">Editora</label><br>
+        <select id="mySelect" onchange="habilitar1(this.value)">
+            <option value="audi">Selecionar</option>
+            <option value="inserir"> inserir</option>
+        </select> <input type="text" id="inserir" disabled> <br><br>
+
+        
+        <label for="">Área do conhecimento</label><br>
+        <select id="mySelect" onchange="habilitar2(this.value)">
+            <option value="sel">Selecionar</option>
+            <option value="cad"> inserir</option>
+        </select> <input type="text" id="cad" disabled><br><br>
+
+        
+        <label>Idioma</label><br>
+        <select>
+            <option value="pt-br">Português - br</option>
+            <option value="pt">Português</option>
+            <option value="es">Espanhol</option>
+            <option value="in">Inglês</option>
+        </select><br><br>
+
+        <label>Isbn10</label><br>
+        <input type="text" name="" id=""><br><br>
+
+        <label>Isbn15</label><br>
+        <input type="text" name="" id=""><br><br>
+
+        <label>Capa</label>
+        <input type="file"><br><br>
+
+        <label for="">Assunto</label><br>
+        <select id="mySelect" onchange="habilitar3(this.value)">
+            <option value="sel">Selecionar</option>
+            <option value="cad2"> inserir</option>
+        </select> <input type="text" id="cad2" disabled><br><br>
+
+        <label>Valor</label><br>
+        <input type="number"><br><br>
+
+        
+        <div id="final">
+            <a id="bt_final" href="#">Finalizar</a>
+        </div>
+
+    </div>
+
+    <script>
+        function habilitar1(valor){
+            if(valor=="inserir"){
+                document.getElementById("inserir").disabled=false;
+            }
+            else{
+                document.getElementById("inserir").disabled=true;
+            }
+        }
+        function habilitar2(valor){
+            if(valor=="cad"){
+                document.getElementById("cad").disabled=false;
+            }
+            else{
+                document.getElementById("cad").disabled=true;
+            }
+        }
+        function habilitar3(valor){
+            if(valor=="cad2"){
+                document.getElementById("cad2").disabled=false;
+            }
+            else{
+                document.getElementById("cad2").disabled=true;
+            }
+        }
+    </script>
+        
+</body>
+</html>
