@@ -2,39 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
 /* */
 
+
 header{
+    margin-top: 13px;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
 }
 
-.direita{
-    margin-right: 30px;
+#inter{
+    margin-right: 10px;
 }
-#esquerda{
-    margin-left: 10px;
+#inter:hover{
+    box-shadow: 1px 1px 1px black;
 }
+
 #fundo{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: whitesmoke;
+    height: 96.5vh;
+    background-image: linear-gradient(150deg, #23292c 60%, #2c373b 98%);
 }
 
-#img1{
-    width: 20px;
-    transform: translateY(24%); 
-}
 
-#extra{
+.extra{
+
     margin-left: 10px;
     border-radius: 6px;
     padding: 5px;
-    background-color: #e7e7e7;
-    text-decoration: none;
+    color: whitesmoke;
+    background-color: #516067;
+    text-decoration: none;;
 }
-#extra:hover{
-    box-shadow: 1px 1px 3px #2c2c2ca9;
+.extra:hover{
+    box-shadow: 1px 1px 3px #070707;
     text-decoration: underline;
 }
 
@@ -45,7 +43,7 @@ header{
 
 main{
     margin: auto;
-    margin-top: 4vh;
+    margin-top: 11vh;
     width: fit-content;
     /*max-width: 1000px;
     min-width: 700px;*/
@@ -54,7 +52,7 @@ main{
 }
 
 #titulo{
-    color: #462aaa;
+    color: #23292C;
     text-align: center;
     font-weight: 250px;
     font-family: 'Indie Flower', 'cursive';
@@ -70,7 +68,7 @@ main{
     height: 400px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 1px 3px 4px  rgba(44, 44, 44, 0.514);
+    box-shadow: 1px 2px 4px  #516067;
 }
 #form{
     text-align: left;
@@ -93,14 +91,14 @@ input{
     text-align: center;
     border-radius: 10px;
     color: white;
-    background-color: #462aaa;
+    background-color: #516067;
     padding: 4px;
     margin-left: 75vh;
 }
 #final:hover{
     color: white;
     text-decoration: underline;
-    box-shadow: 1px 1px 3px #202020ad;
+    box-shadow: 1px 1px 3px black;
 
 }
 #bt_final{
