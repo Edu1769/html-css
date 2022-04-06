@@ -17,7 +17,7 @@ header{
 }
 
 #fundo{
-    height: 96.5vh;
+    height: 96.3vh;
     background-image: linear-gradient(150deg, #23292c 60%, #2c373b 98%);
 }
 
@@ -45,8 +45,6 @@ main{
     margin: auto;
     margin-top: 11vh;
     width: fit-content;
-    /*max-width: 1000px;
-    min-width: 700px;*/
     display: flex;
     
 }
@@ -64,7 +62,8 @@ main{
     padding-left: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
-    width: fit-content;
+    width: 370px;
+
     height: 400px;
     background-color: #f0f0f0;
     border-radius: 10px;
