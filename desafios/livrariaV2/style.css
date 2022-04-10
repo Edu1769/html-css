@@ -43,9 +43,10 @@ header{
 
 .imag{
     transform: translateY(0px);
-    animation: float 5s ease-in-out infinite;
+    animation: flutuar 5s ease-in-out infinite;
 }
-@keyframes float{
+
+@keyframes flutuar{
     0%{
         transform: translateY(0px);
     }
