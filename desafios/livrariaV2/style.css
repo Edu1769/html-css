@@ -41,6 +41,24 @@ header{
     margin-right: 5px;
 }
 
+.imag{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} 
+/*
+Video: https://www.youtube.com/watch?v=BTQHO-yP-CA
+*/
 main{
     margin: auto;
     margin-top: 11vh;
