@@ -1,40 +1,40 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=PT+Serif&display=swap');
 /* */
+
 
 header{
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
+    margin-top: 23px;
 }
 
-.direita{
-    margin-right: 30px;
+#inter{
+    margin-right: 10px;
 }
-#esquerda{
-    margin-left: 10px;
+#inter:hover{
+    box-shadow: 1px 1px 1px black;
 }
+
 #fundo{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: whitesmoke;
+    background-color: #2e3744;
 }
 
-#img1{
-    width: 20px;
-    transform: translateY(24%); 
-}
 
-#extra{
+.extra{
+
     margin-left: 10px;
     border-radius: 6px;
     padding: 5px;
-    background-color: #e7e7e7;
-    text-decoration: none;
+    color: whitesmoke;
+    background-color: #516067;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;;
 }
-#extra:hover{
-    box-shadow: 1px 1px 3px #2c2c2ca9;
+.extra:hover{
+    box-shadow: 1px 1px 3px #070707;
     text-decoration: underline;
 }
 
@@ -43,18 +43,35 @@ header{
     margin-right: 5px;
 }
 
+.imag{
+    transform: translateY(0px);
+    animation: flutuar 5s ease-in-out infinite;
+}
+
+@keyframes flutuar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} 
+/*
+Video: https://www.youtube.com/watch?v=BTQHO-yP-CA
+*/
 main{
     margin: auto;
-    margin-top: 4vh;
+    margin-top: 11vh;
     width: fit-content;
-    /*max-width: 1000px;
-    min-width: 700px;*/
     display: flex;
     
 }
 
 #titulo{
-    color: #462aaa;
+    color: #23292C;
     text-align: center;
     font-weight: 250px;
     font-family: 'Indie Flower', 'cursive';
@@ -66,11 +83,12 @@ main{
     padding-left: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
-    width: fit-content;
+    width: 370px;
+
     height: 400px;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 1px 3px 4px  rgba(44, 44, 44, 0.514);
+    box-shadow: 2px 2px 13px  #272727;
 }
 #form{
     text-align: left;
@@ -93,14 +111,14 @@ input{
     text-align: center;
     border-radius: 10px;
     color: white;
-    background-color: #462aaa;
+    background-color: #516067;
     padding: 4px;
     margin-left: 75vh;
 }
 #final:hover{
     color: white;
     text-decoration: underline;
-    box-shadow: 1px 1px 3px #202020ad;
+    box-shadow: 1px 1px 3px black;
 
 }
 #bt_final{
@@ -117,4 +135,66 @@ footer{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+#divisor{
+    height:2px;
+    border-width:0;
+    color:#516067;
+    background-color:#516067;
+    margin-top: 60px;
+    width: 200vh;
+    border-radius: 20px;
+    box-shadow: 1px 1px  #272727;
+
+}
+
+#livros{
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 10px;
+
+    max-width: 700px;
+    min-width: 400px;
+
+    height: 400px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 13px  #272727;
+    
+}
+
+#liv_titulo{
+    text-align: center;
+    color: #23292C;
+    font-size: 30px;
+    font-family: 'Gentium Book Basic', serif;
+    margin-bottom: 20px;
+
+    
+}
+
+#cad_img{
+    border-radius: 100%;
+    width: 81px;
+    height: 90px;
+
+    
+}
+
+#cad_livros{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+}
+.sinopse{
+    font-size: 16.3px;
+    font-family: 'Gentium Book Basic', serif;
+    line-height: 22px;
+    margin-left: 20px;
 }
