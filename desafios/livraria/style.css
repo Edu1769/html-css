@@ -54,7 +54,7 @@ header{
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-12px);
     }
     100%{
         transform: translateY(0px);
@@ -89,12 +89,11 @@ main{
     padding-left: 10px;
     padding-right: 40px;
     padding-bottom: 10px;
-    width: 370px;
-
-    height: 400px;
+    width: fit-content;
+    height: fit-content;
     background-color: #f0f0f0;
     border-radius: 10px;
-    box-shadow: 2px 2px 13px  #272727;
+    box-shadow: 1px 2px 13px  #00000096;
 }
 #form{
     text-align: left;
@@ -149,7 +148,8 @@ footer{
     color:#516067;
     background-color:#516067;
     margin-top: 60px;
-    width: 200vh;
+    max-width: 200vh;
+    min-width: fit-content;
     border-radius: 20px;
     box-shadow: 1px 1px  #272727;
 
@@ -162,7 +162,7 @@ footer{
     padding: 10px;
 
     max-width: 700px;
-    min-width: 400px;
+    min-width: fit-content;
 
     height: fit-content;
     background-color: #f0f0f0;

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+*{
+    margin: 0px;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img_dog{
+    height: 50px;
+}
+
+.menu_nav{
+    margin-right: 29px;
+    color: #012030;
+    text-decoration: none;
+    font-family: 'Marko One', serif;
+}
+.menu_nav:hover{
+    text-decoration: 1px underline #13678A;
+
+}
+#menu_titulo{
+    color: #13678A;
+    font-family: 'Marko One', serif;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+}
+
+#menu_seta{
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 30vh;
+}
+#tela_2{
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #012030;
+    height: fit-content;
+    width: 98.6%;
+
+}
+#escrita{
+    width: 65%;
+    margin-left: 5vh;
+}
+#tela2_titulo{
+    margin-top: 100px;
+    font-family: 'Marko One', serif;
+    color:#13678A;
+    font-size: 8vh;
+}
+#tela2_paragrafo{
+    font-family: 'Marko One', serif;
+    color:#9AEBA3;
+    font-size: 3vh;
+    margin-top: 50px;
+}
+#mapa_brasil{
+    max-width: 900px;
+    max-height: 900px;
+    min-width: 400px;
+    min-height: 200px;
+
+}
