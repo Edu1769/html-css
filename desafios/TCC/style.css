@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+
+*{
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+#menu{
+    height: 100vh;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img_dog{
+    padding: 5px;
+    margin-left: 4vw;
+    height: 50px;
+}
+
+.menu_nav{
+    margin-right: 29px;
+    color: #012030;
+    text-decoration: none;
+    font-family: 'Marko One', serif;
+}
+.menu_nav:hover{
+    text-decoration: 1px underline #13678A;
+
+}
+#menu_titulo{
+    color: #13678A;
+    font-family: 'Marko One', serif;
+    font-size: calc(2em + 1.5vw);
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 80px;
+}
+#menu_titulo::after{
+    content:" " ;
+    display: block;
+    width: calc(2em + 30vw);
+    height: 3px;
+    background-color: currentColor;
+    margin: 10px auto;
+}
+
+#menu_seta{
+    max-height: calc(1.5em + 3vw);
+    display: block;
+    margin: auto;
+    margin-top: 30vh;
+    animation: flutuar 3s ease-in-out infinite;
+
+}
+
+@keyframes flutuar{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-12px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} 
+
+#tela_2{
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #012030;
+    width: 100vw;
+    padding-bottom: 30vh;
+    height: fit-content;
+
+}
+#escrita{
+    width: 50%;
+    margin-left: 5vh;
+}
+#tela2_titulo{
+    margin-top: 60px;
+    font-family: 'Marko One', serif;
+    color:#13678A;
+    font-size: calc(2em + 1vw);
+}
+#tela2_paragrafo{
+    font-family: 'Marko One', serif;
+    color:#9AEBA3;
+    font-size: calc(1em + 0.3vw);
+    margin-top: 50px;
+}
+#mapa_brasil{
+    margin-left: 5vh;
+    width: fit-content;
+
+}
+
+#mapa{
+    margin-top: 20px;
+}
+
+
+#tela_3{
+    margin: auto;
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: white;
+    height: 100vh;
+
+}
+#conteudo3{
+    width: 100%;
+}
+#form{
+    background-color: aliceblue;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 20px;
+}
