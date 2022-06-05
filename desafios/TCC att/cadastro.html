@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/cadastro.css">
+    <title>Cadastro - Sistema Monitoramento</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <a href="index.html"><img id="img_dog" src="imgs/cachorro1.png" alt=""></a>
+        <nav>
+            <a class="menu_nav" href="index.html">HOME</a>
+            <a class="menu_nav" href="dados.html">DADOS</a>
+            <a class="menu_nav" href="cadastro.html">CADASTRE-SE</a>
+            <a class="menu_nav" href="login.html">LOGIN</a>
+        </nav>
+    </header>
+    
+    <main id="area_form">
+        <div id="form_titulo">
+            <h1>Criar conta</h1>
+        </div>
+        <form action="">
+            <div id="form">
+                <label>Seu nome:</label><br>
+                <input class="form_caixa" placeholder="Digite seu nome" type="text"><br><br>
+                
+                <label>Senha:</label><br>
+                <input class="form_caixa" placeholder="Digite sua senha" type="password"><br><br>
+
+                <label>Confirme sua senha:</label><br>
+                <input class="form_caixa" placeholder="Digite sua senha novamente" type="password"><br><br>
+                
+                <label>Numero de celular ou e-mail:</label><br>
+                <input class="form_caixa" placeholder="Digite seu sobrenome" type="text"><br><br>
+
+                <label>Cidade: </label>
+                    <input class="form_caixa" placeholder="Digite sua cidade" type="text"><br><br>
+
+                <label>Estado: </label>
+                <select>
+                    <option value="">AC</option>
+                    <option value="">AL</option>
+                    <option value="">AP</option>
+                    <option value="">AM</option>
+                    <option value="">BA</option>
+                    <option value="">CE</option>
+                    <option value="">DF</option>
+                    <option value="">ES</option>
+                    <option value="">GO</option>
+                    <option value="">MA</option>
+                    <option value="">MT</option>
+                    <option value="">MS</option>
+                    <option value="">MG</option>
+                    <option value="">PA</option>
+                    <option value="">PB</option>
+                    <option value="">PR</option>
+                    <option value="">PE</option>
+                    <option value="">PI</option>
+                    <option value="">RJ</option>
+                    <option value="">RN</option>
+                    <option value="">RS</option>
+                    <option value="">RO</option>
+                    <option value="">RR</option>
+                    <option value="">SC</option>
+                    <option value="">SP</option>
+                    <option value="">SE</option>
+                    <option value="">TO</option>
+                </select>
+                </label>
+                <br><br>
+                <label for="">Editora:</label><br>
+                <select id="mySelect" onchange="habilitar1(this.value)">
+                    <option value="audi">Selecionar</option>
+                    <option value="inserir"> inserir</option>
+                </select> <input placeholder="Digite a editora" type="text" id="inserir"> <br><br>
+                p
+                <button id="botao">Cadastrar</button>
+            </div>
+    
+        </form>
+    </main>
+</body>
+</html>
