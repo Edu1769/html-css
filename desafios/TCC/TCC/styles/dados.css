@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #00293d, #00111a);
+}
+
+main{
+    margin-top: 20vh;
+}
+
+table, th, td{
+    padding: 2px;
+    border: 1.5px solid black;
+}
+
+table{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+}
+th{
+    background-color: #9AEBA3;
+}

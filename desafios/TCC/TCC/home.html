@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Sistema Monitoramento</title>
+    <link rel="shortcut icon" href="imgs/cachorro.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/cabecalho.css">
+</head>
+<body>
+    
+    <main>
+        <header id="cabecalho">
+            <nav>
+                <a href="index.html"><img id="img_dog" src="imgs/cachorro1.png" alt=""></a>
+                <div id="mobile_menu">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div> 
+                </div>
+                <ul id="nav-list">
+                    <li><a class="menu_nav" href="home.html">HOME</a></li>
+                    <li><a class="menu_nav" href="dados.html">DADOS</a></li>
+                    <li><a class="menu_nav" href="#">NOTICIAS</a></li>
+                    <li><a class="menu_nav" href="index.html">LOGIN</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        <div id="fundo_titulo">
+            <div>
+                <h1 id="menu_titulo">Sistema de Monitoriamento <br> e Prevenção de Enchentes</h1> 
+            </div>  
+        </div>
+    </main>
+    
+    <section id="tela_2">
+        <div id="escrita">
+            <h1 id="tela2_titulo">Estados com mais casos de enchentes</h1>
+            <p id="tela2_paragrafo">Estados do brasil que mais 
+                sofreram no ano de 2022 com enchentes devido às altas 
+                tempestades ocorridas de acordo com 
+                esse <a href="https://exame.com/brasil/11-estados-enfrentam-enchentes-e-alagamentos-neste-comeco-de-ano/"> SITE</a>
+                . Essas regiões acabaram por terem diversas perdas tantos de bens materiais quanto de vidas
+                humanas.
+            </p>
+            <iframe name="estados"  src="" frameborder="0" height="300px" width="100%"></iframe>
+        </div>
+        
+
+        <div id="mapa_brasil" >
+            <img id="mapa" src="imgs/mapa-brasil.png" usemap="#image-map">
+                <map id="mapeamento" name="image-map">
+                    <area target="estados" alt="Sp" title="Sp" href="estados/sp.html" coords="223,289,233,278,238,268,245,264,257,267,271,265,274,274,275,279,278,287,280,292,286,295,289,293,295,290,298,295,280,303,275,307,271,307,269,309,264,313,254,308,251,299,246,294,235,291,229,290,227,290" shape="poly">
+                    <area target="estados" alt="Mg" title="Mg" href="estados/sp.html" coords="243,255,244,250,255,249,262,247,268,246,273,243,275,235,275,227,277,220,279,212,289,212,294,210,299,207,305,210,311,211,316,213,323,213,327,218,332,221,336,223,333,231,332,237,331,242,328,255,326,262,320,268,318,274,316,279,308,281,301,282,294,284,288,287,282,287,278,281,277,274,274,267,268,261,262,262,255,261,248,259,241,259,243,255" shape="poly">
+                    <area target="estados" alt="Rj" title="Rj" href="estados/sp.html" coords="301,295,299,288,306,287,311,285,317,284,319,280,322,274,325,278,329,281,324,285,321,291" shape="poly">
+                    <area target="estados" alt="Go" title="Go" href="estados/sp.html" coords="240,257,231,253,225,249,220,244,217,237,220,230,225,224,230,219,234,213,238,208,241,200,242,191,247,194,251,197,257,194,263,199,269,198,276,196,279,201,279,206,275,212,275,217,274,222,272,239,267,244,256,246,243,248" shape="poly">
+                    <area target="estados" alt="Ba" title="Ba" href="estados/ba.html" coords="353,170,357,164,355,156,344,151,340,157,333,159,329,153,323,158,319,161,310,160,308,166,304,170,298,172,291,172,285,168,281,174,282,180,282,185,283,198,285,211,299,204,308,207,315,210,325,211,331,217,339,221,335,237,343,247,348,231,348,194,359,187,359,180" shape="poly">
+                    <area target="estados" alt="To" title="To" href="estados/to.html" coords="241,188,240,178,243,169,247,161,251,151,255,145,256,137,260,130,264,123,267,117,268,131,269,138,272,144,272,150,274,157,277,162,280,167,275,172,276,178,277,184,277,190,271,193,263,195,257,190,251,193" shape="poly">
+                    <area target="estados" alt="Ma" title="Ma" href="estados/ma.html" coords="284,152,281,161,276,152,278,143,273,136,272,131,273,118,266,113,270,108,278,100,281,90,285,82,287,75,294,76,297,84,301,87,309,86,314,89,322,90,318,95,311,105,311,111,311,116,311,122,308,128,301,131,288,140" shape="poly">
+                    <area target="estados" alt="Pi" title="Pi" href="estados/pi.html" coords="291,170,289,160,288,151,290,141,295,138,301,133,307,133,313,129,315,120,315,111,316,102,321,96,327,91,327,101,327,111,329,119,332,124,334,130,331,136,331,142,324,152,315,157,307,155,305,162,299,169" shape="poly">
+                    <area target="estados" alt="Ce" title="Ce" href="estados/ce.html" coords="339,135,339,126,334,121,332,109,332,97,331,88,338,89,347,94,354,99,361,105,364,109,357,119,352,123,350,137" shape="poly">
+                    <area target="estados" alt="Pe" title="Pe" href="estados/pe.html" coords="335,154,331,149,336,145,336,138,345,140,352,140,361,141,365,146,370,146,375,143,382,141,387,140,384,149,368,155,363,152,356,154,346,147" shape="poly">
+                    <area target="estados" alt="Pb" title="Pb" href="estados/sp.html" coords="355,138,354,129,360,129,367,132,372,133,378,130,386,131,387,136,380,137,367,144,363,137" shape="poly">
+                    <area target="estados" alt="Rn" title="Rn" href="estados/sp.html" coords="357,124,361,119,365,113,374,112,381,114,384,119,387,125,377,125,373,131,365,129" shape="poly">
+                    <area target="estados" alt="Rr" title="Rr" href="estados/sp.html" coords="139,73,132,69,133,62,131,55,131,47,128,40,121,36,115,32,114,24,109,19,121,21,127,22,132,18,137,18,143,14,148,9,153,9,155,15,158,19,155,28,154,37,157,42,165,49,165,56,154,57,151,68,141,67" shape="poly">
+                </map>
+
+        </div>
+    </section>
+
+    <section id="introdução">
+        <h1 id="introd">Para ajudar aqueles que <br> mais precisam</h1>
+        <p id="text_introd">As mudanças climáticas dos últimos anos aumentaram gravemente a quantidade de riscos relacionados ao excesso de água principalmente nos casos de enchentes pois o aumento dela acrescentado aos problemas de urbanização culminam em grandes problemas</p>
+    </section>
+    
+    <footer id="rodape">
+        <div id="dev_rod">
+            <h1>Desenvolvedores</h1>
+        </div>
+        <div id="devs">
+            <div class="links_red">
+                <h3 class="nome-devs">Eduardo</h3> 
+                <a class="redes" href="#">Github</a> <br>
+                <a class="redes" href="#">Linkedin</a> <br>
+                <a class="redes" href="#">Instagram</a> <br>
+            </div>
+            <div class="links_red">
+                <h3 class="nome-devs">Gabriel </h3>
+                <a class="redes" href="#">Github</a> <br>
+                <a class="redes" href="#">Linkedin</a> <br>
+                <a class="redes" href="#">Instagram</a> <br>
+            </div>
+            <div class="links_red">
+                <h3 class="nome-devs">Raphael </h3>
+                <a class="redes" href="#">Github</a> <br>
+                <a class="redes" href="#">Linkedin</a> <br>
+                <a class="redes" href="#">Instagram</a> <br>
+            </div>
+        </div>
+        <hr id="rod_sub">
+        
+        <div id="rede_proj">
+            <div id="insta">
+                <img src="https://img.icons8.com/fluency/48/undefined/instagram-new.png"/>
+                <a class="nome-redes" href="#">Instagram</a> <br>
+            </div>
+            <div id="git">
+                <img id="git-img" src="imgs/git.png"/>
+                <a class="nome-redes" href="#">Github</a> <br>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+       window.addEventListener("scroll",function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > window.screen.height-100)
+       })
+    </script>
+    <script src="js/mobile-navbar.js"></script>
+</body>
+</html>

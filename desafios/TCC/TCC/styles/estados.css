@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+
+p{
+    font-family: 'Marko One', serif;
+    color:#9AEBA3;
+    font-size: calc(1em + 0.2vw);
+    margin-left: -9px;
+    line-height: 24px;
+    text-align: justify;
+}
